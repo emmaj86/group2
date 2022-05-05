@@ -38,7 +38,7 @@
                     <a class="nav-link" href="#">Venus</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Earth</a>
+                    <a class="nav-link" href="earth.html">Earth</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Mars</a>
@@ -69,18 +69,22 @@
         <h2>Click on a planet</h2>
     </header>
 
-    <!--image-->
-    <img src="images/solar_system1.jpg" class="img-fluid" alt="Responsive image" usemap="#planets">
+    <main>
+        <section id="image">
+            <!--image-->
+            <img src="images/solar_system1.jpg" class="img-fluid" alt="Responsive image" usemap="#planets" width="1024"
+                height="768">
 
 
 
+            <map name="planets">
+                <area shape="circle" coords="323, 253, 20" href="earth.html">
+            </map>
+        </section>
 
 
+    </main>
 
-
-    <map name="planets">
-        <area shape="circle" coords="508, 396, 30" href="earth.html">
-    </map>
     <footer>
         <div id="footer">
 
@@ -96,6 +100,9 @@
             <div class="website">
                 <a href="solarsystem.com/" target="_blank">solarsystem.com</a>
             </div>
+
+
+
 
             <div class="menu_right">
                 <p>Privacy</p>
