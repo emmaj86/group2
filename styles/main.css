@@ -56,12 +56,23 @@ h1 {
     justify-content: center;
     display: flex;
     margin-top: 50px;
+    margin-bottom: -10px;
+    font-size: 80px;
 }
 
 h2 {
     justify-content: center;
     display: flex;
-    margin-top: 50px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+h3 {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .side_nav {
@@ -104,28 +115,43 @@ h2 {
     flex-shrink: 0;
 }
 
-#footer .socialmedia {
+#footer .menu_footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#footer .menu_footer .socialmedia {
     display: flex;
     justify-content: flex-start;
     flex-grow: 1;
     padding-left: 10px;
 }
 
-#footer .socialmedia .icon {
+#footer .menu_footer .socialmedia .icon {
     margin: 0px 5px;
 }
 
 
-#footer .website {
+#footer .menu_footer .website {
     display: flex;
     justify-content: center;
     flex-grow: 1;
 
 }
 
-#footer .menu_right {
+.website a {
+    color: #aaa;
+}
+
+#footer .menu_footer .menu_right {
     display: flex;
     justify-content: flex-end;
     flex-grow: 1;
     padding-right: 10px;
+}
+
+.menu_item {
+    padding: 0px 10px;
+    color: #aaa;
 }
