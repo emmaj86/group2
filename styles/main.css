@@ -80,6 +80,21 @@ h2 {
     overflow-y: hidden;
 }
 
+.page-info-title {
+    font-family: 'Google Sans', Helvetica, Arial, sans-serif;
+    display: absolute;
+    margin: 20px;
+    color: #aaa;
+}
+
+.page-info-copy {
+    font-family: 'Google Sans', Helvetica, Arial, sans-serif;
+    display: absolute;
+    margin: 20px 120px;
+    color: #aaa;
+}
+
+
 .icon {
     display: block;
     margin: 40px 10px;
