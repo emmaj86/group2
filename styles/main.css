@@ -2,17 +2,21 @@ html,
 body {
     height: 100%;
     background-color: black;
+    
 }
 
 body {
-    font-family: 'Google Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     display: absolute;
     margin: 0px;
+    color: whitesmoke
 }
 
 header {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     color: beige;
+    
 }
 
 img {
@@ -53,12 +57,14 @@ img {
 }
 
 h1 {
+    font-family: 'Lato', sans-serif;
     justify-content: center;
     display: flex;
     margin-top: 50px;
 }
 
 h2 {
+    font-family: 'Lato', sans-serif;
     justify-content: center;
     display: flex;
     margin-top: 50px;
