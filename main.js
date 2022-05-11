@@ -6,18 +6,26 @@
 
 
 setTimeout(function () {
-    document.getElementById("overlay").style.display = "block";
+    const hideOverlay = sessionStorage.getItem("hideOverlay");
+    if (hideOverlay !== "true") {
+        document.getElementById("overlay").style.display = "block";
+    }
 }, 1000);
 
 setTimeout(function () {
-    document.getElementById("heading").style.display = "block";
+    const hideOverlay = sessionStorage.getItem("hideOverlay");
+    if (hideOverlay !== "true") {
+        document.getElementById("heading").style.display = "block";
+    }
 }, 2000);
+
 
 
 window.onclick = off;
 
 function off() {
     document.getElementById("overlay").style.display = "none";
+    sessionStorage.setItem("hideOverlay", "true");
 };
 
 
