@@ -200,6 +200,7 @@ h3 {
     justify-content: flex-start;
     flex-grow: 1;
     padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 #footer .menu_footer .socialmedia .icon {
