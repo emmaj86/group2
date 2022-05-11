@@ -157,11 +157,18 @@ h3 {
     color: #aaa;
 }
 
+.left {
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
 .page-info-copy {
     font-family: 'Google Sans', Helvetica, Arial, sans-serif;
     display: absolute;
     margin: 20px 120px;
     color: #aaa;
+    font-size: calc(0.50em + 0.5vw);
 }
 
 
