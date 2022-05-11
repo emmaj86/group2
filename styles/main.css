@@ -80,6 +80,14 @@ img {
     -ms-transform: translate(-50%, -50%);
 }
 
+.nav-item a {
+    color: #aaa;
+}
+
+.nav-item a:hover {
+    color: orange;
+}
+
 #instructions {
     position: absolute;
     top: 60%;
